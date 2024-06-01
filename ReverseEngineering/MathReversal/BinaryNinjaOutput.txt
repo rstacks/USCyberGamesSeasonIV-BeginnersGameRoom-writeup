@@ -1,0 +1,51 @@
+int64_t checkflag(char* arg1)
+{
+    int32_t var_1c = 0;
+    int64_t rax_9;
+    while (true)
+    {
+        if ((var_1c < strlen(arg1) && var_1c <= 0x1e))
+        {
+            if ((flagCheck[var_1c] + arg1[var_1c]) != 0x80)
+            {
+                rax_9 = 0;
+                break;
+            }
+            var_1c = (var_1c + 1);
+            continue;
+        }
+        if (strlen(arg1) != 0x1f)
+        {
+            rax_9 = 0;
+        }
+        else
+        {
+            rax_9 = 1;
+        }
+        break;
+    }
+    return rax_9;
+}
+
+int32_t main(int32_t argc, char** argv, char** envp)
+{
+    int32_t rax;
+    if (argc != 2)
+    {
+        puts("put in a flag guess");
+        rax = 1;
+    }
+    else
+    {
+        if (checkflag(argv[1]) == 0)
+        {
+            puts("nope!");
+        }
+        else
+        {
+            printf("%s was the correct flag\n", argv[1]);
+        }
+        rax = 0;
+    }
+    return rax;
+}
