@@ -1,0 +1,104 @@
+_BYTE byte_4050[32] =
+{
+  -83,
+  117,
+  -1,
+  -125,
+  -43,
+  -64,
+  115,
+  22,
+  44,
+  42,
+  -9,
+  46,
+  123,
+  69,
+  -76,
+  -106,
+  -5,
+  -127,
+  -87,
+  123,
+  105,
+  105,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+}; // weak
+_BYTE byte_4070[24] =
+{
+  -2,
+  60,
+  -87,
+  -63,
+  -110,
+  -110,
+  8,
+  110,
+  28,
+  88,
+  -88,
+  108,
+  59,
+  54,
+  -123,
+  -11,
+  -120,
+  -34,
+  -5,
+  72,
+  31,
+  20,
+  0,
+  0
+}; // weak
+
+/*****************************************************************************/
+
+//----- (00000000000011A9) ----------------------------------------------------
+__int64 __fastcall sub_11A9(__int64 a1)
+{
+  char v2; // [rsp+1Bh] [rbp-5h]
+  int i; // [rsp+1Ch] [rbp-4h]
+
+  if ( std::string::size(a1) != 22 )
+    return 0LL;
+  for ( i = 0; i <= 22; ++i )
+  {
+    v2 = byte_4050[i] ^ byte_4070[i];
+    if ( v2 != *(_BYTE *)std::string::operator[](a1, i) )
+      return 0LL;
+  }
+  return 1LL;
+}
+// 1050: using guessed type __int64 __fastcall std::string::size(_QWORD);
+// 1080: using guessed type __int64 __fastcall std::string::operator[](_QWORD, _QWORD);
+// 4050: using guessed type _BYTE byte_4050[32];
+// 4070: using guessed type _BYTE byte_4070[24];
+
+//----- (000000000000123D) ----------------------------------------------------
+__int64 __fastcall main(int a1, char **a2, char **a3)
+{
+  __int64 v3; // rdx
+  __int64 v4; // rax
+  char v6[40]; // [rsp+0h] [rbp-30h] BYREF
+
+  std::operator<<<std::char_traits<char>>(&std::cout, "Enter the correct flag to pass: ", a3);
+  std::string::basic_string(v6);
+  std::getline<char,std::char_traits<char>,std::allocator<char>>(&std::cin, v6);
+  if ( (unsigned __int8)sub_11A9((__int64)v6) )
+    v4 = std::operator<<<std::char_traits<char>>(&std::cout, "Correct!", v3);
+  else
+    v4 = std::operator<<<std::char_traits<char>>(&std::cout, "Sorry, the input is incorrect. Try again!", v3);
+  std::ostream::operator<<(v4, &std::endl<char,std::char_traits<char>>);
+  std::string::~string(v6);
+  return 0LL;
+}
