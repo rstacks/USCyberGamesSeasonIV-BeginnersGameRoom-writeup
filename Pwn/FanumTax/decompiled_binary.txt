@@ -1,0 +1,63 @@
+int64_t win()
+{
+    void* fsbase;
+    int64_t rax = *(fsbase + 0x28);
+    void var_58;
+    fgets(&var_58, 0x40, fopen("flag.txt", &data_402008));
+    puts(&var_58);
+    if (rax == *(fsbase + 0x28))
+    {
+        return (rax - *(fsbase + 0x28));
+    }
+    __stack_chk_fail();
+    /* no return */
+}
+
+int64_t init()
+{
+    setvbuf(stdin, nullptr, 2, 0);
+    return setvbuf(__TMC_END__, nullptr, 2, 0);
+}
+
+int32_t main(int32_t argc, char** argv, char** envp)
+{
+    void* fsbase;
+    int64_t var_10 = *(fsbase + 0x28);
+    puts("Welcome to the Tiktok Rizz Party…");
+    puts("Can you prove that you're a sigm…");
+    printf("How many hours do you want to lo…");
+    int32_t var_34;
+    __isoc99_scanf(&data_4020be, &var_34);
+    while (true)
+    {
+        int32_t rax_4 = getchar();
+        if (rax_4 == 0xa)
+        {
+            break;
+        }
+        if (rax_4 == 0xffffffff)
+        {
+            break;
+        }
+        if (!((rax_4 != 0xa && rax_4 != 0xffffffff)))
+        {
+            /* nop */
+        }
+    }
+    if ((var_34 > 0 && var_34 <= 0x18))
+    {
+        for (int32_t i = 0; i < var_34; i = (i + 1))
+        {
+            printf("Hour %d: ", (i + 1));
+            void var_28;
+            fgets(&var_28, 0x18, stdin);
+            printf(&var_28);
+        }
+        puts("Now let's see if you mog...");
+        exit(0);
+        /* no return */
+    }
+    printf("You can't looksmaxx for that lon…");
+    exit(0);
+    /* no return */
+}
