@@ -1,5 +1,5 @@
 We are provided with a binary. I uploaded it to the Decompiler Explorer at dogbolt.org. Here, I took
-note of two decompilation outputs: the one provided by BinaryNinja the one provided by Hex-Rays. The
+note of two decompilation outputs: the one provided by BinaryNinja and the one provided by Hex-Rays. The
 BinaryNinja output provided the most readable C code of all the decompilers. By examining the main()
 function, we can see that this program is using a function called checkflag() to verify a
 user-provided flag. If we can figure out how to get checkflag() to return true, then we can find
