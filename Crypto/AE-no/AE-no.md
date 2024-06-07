@@ -1,3 +1,13 @@
+# AE-no
+
+## Description
+
+The AES key can be public as long as the IV is secret right?
+
+## Attachments
+
+
+
 We are provided with the key and the encrypted flag, as well as the script that was used to create
 the encrypted text. Breaking an AES encryption without the IV is difficult, but luckily, we are
 provided with some of the plaintext in main.py. We know that the plaintext is "Here is the
