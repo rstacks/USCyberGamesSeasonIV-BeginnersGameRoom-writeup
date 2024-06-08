@@ -18,4 +18,4 @@ list of some of the tools I used for this competition:
 - [CyberChef](https://cyberchef.org/): Great for cryptography challenges.
 - [dogbolt.org](https://dogbolt.org/): The Decompiler Explorer. Great for analyzing executables for reverse engineering challenges.
 - [Burp Suite](https://portswigger.net/burp/communitydownload): Enables interception of web requests and provides other web exploitation tools.
-- [Wireshark](https://www.wireshark.org/): Provides lots of options for analyzing network packets.
+- [Wireshark](https://www.wireshark.org/): Provides lots of options for analyzing network communications.
