@@ -7,7 +7,58 @@ Below, you'll find writeups for all of the challenges I completed. I am also inc
 
 ## Solved Challenges
 
+<details>
+  <summary>Crypto</summary>
+
+  * [AE-no](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Crypto/AE-no)
+  * [Baby's First RSA](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Crypto/BabysFirstRSA)
+  * [Prime Time](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Crypto/PrimeTime)
+  * [What's Diffie](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Crypto/WhatsDiffie)
+  * [xorcellent flag checker](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Crypto/xorcellentFlagChecker)
+
+</details>
+
+<details>
+  <summary>Forensics</summary>
+
+  * [Secret](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Forensics/Secret)
+  * [The Email Where It Happens](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Forensics/TheEmailWhereItHappens)
+  * [You Have Mail](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Forensics/YouHaveMail)
+  
+</details>
+
+<details>
+  <summary>Misc</summary>
+
+  * [Super Duper Quick Maths](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Misc/SuperDuperQuickMaths)
+  
+</details>
+
+<details>
+  <summary>Reverse Engineering</summary>
+
+  * [Flag Checker](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/ReverseEngineering/FlagChecker)
+  * [Math Reversal](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/ReverseEngineering/MathReversal)
+  
+</details>
+
+<details>
+  <summary>Web</summary>
+
+  * [Control Panel](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Web/ControlPanel)
+  * [Hunt](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Web/Hunt)
+  * [Parts Shop](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Web/PartsShop)
+  
+</details>
+
 ## Unfinished Challenges
+
+<details>
+  <summary>Pwn</summary>
+
+  * [Fanum Tax](https://github.com/rstacks/USCyberOpenSeasonIV-BeginnersGameRoom-writeup/tree/master/Pwn/FanumTax_UNFINISHED)
+  
+</details>
 
 ## Results
 
