@@ -16,6 +16,6 @@ Below, you'll find writeups for all of the challenges I completed. I am also inc
 I used my laptop with [Ubuntu 22.04](https://ubuntu.com/desktop) for this competition. I also used [Kali Linux](https://www.kali.org/) through [VirtualBox](https://www.virtualbox.org/) for tools like Burp Suite and Wireshark. Here is a short
 list of some of the tools I used for this competition:
 - [CyberChef](https://cyberchef.org/): Great for cryptography challenges.
-- [dogbolt.org](https://dogbolt.org/): The Decompiler Explorer. Great for analyzing executables for reverse engineering challenges.
+- [dogbolt.org](https://dogbolt.org/): The Decompiler Explorer. I used it to analyze executables for reverse engineering challenges.
 - [Burp Suite](https://portswigger.net/burp/communitydownload): Enables interception of web requests and provides other web exploitation tools.
-- [Wireshark](https://www.wireshark.org/): Provides lots of options for analyzing network communications.
+- [Wireshark](https://www.wireshark.org/): Great for analyzing network communications.
