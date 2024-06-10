@@ -62,6 +62,8 @@ Below, you'll find writeups for all of the challenges I completed. I am also inc
 
 ## Results
 
+I successfully completed 14 challenges, scoring a total of **2100 points**. While it says I finished in 186th place, this is not really meaningful, as the rankings include players' scores from both the Beginner's Game Room and the Season IV Competitive CTF that occurred at the same time. With that said, there were 1,353 participants (that solved at least one challenge) between these two events.
+
 ## Software and Tools
 
 I used my laptop with [Ubuntu 22.04](https://ubuntu.com/desktop) for this competition. I also used [Kali Linux](https://www.kali.org/) through [VirtualBox](https://www.virtualbox.org/) for tools like Burp Suite and Wireshark. Here is a short
