@@ -5,6 +5,8 @@ This was my second ever CTF, and while I was only able to solve about half of th
 
 Below, you'll find writeups for all of the challenges I completed. I am also including writeups for incomplete challenges that I attempted. Information on my results in the competition and the software I used can be found below my writeup links.
 
+Click [here](https://github.com/rstacks/ctf-writeups) to check out my writeups for other CTFs I've participated in.
+
 ## Solved Challenges
 
 <details>
